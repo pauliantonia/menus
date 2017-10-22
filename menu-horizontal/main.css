@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  /*outline: 1px solid yellow;*/
+}
+
+ul {
+  /*outline: 1px solid blue;*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #2e2e2a;
+  line-height: 50px;
+  overflow: auto; /*devuelve a la etiqueta ul que es el contenedor de li, devulve el contexto de bloque, para que los contexto de li funcionen con float*/
+}
+
+li {
+  /*outline: 1px solid red;*/
+  width: 110px;
+  /*display: inline-block;*/
+  text-align: center;
+  float: left; /*elimina el color de fondo gris, saca de contexto, quita estructura de bloque*/
+}
+
+a {
+  /*outline: 1px solid green;*/
+  text-decoration: none;
+  color: white;
+  display: block;
+  /*margin: 20px;*/
+}
+
+a:hover{
+  background-color: #f9a91a;
+  color: black;
+}
